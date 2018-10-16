@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    zookeeper:
+      connect-string: 140.143.35.107:2181
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+logging:
+  file: zuul.log
