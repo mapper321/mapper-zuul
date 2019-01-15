@@ -8,5 +8,15 @@ spring:
       connect-string: 140.143.35.107:2181
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
+#hystrix: 
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 60000
+#ribbon:
+#  ReadTimeout: 3000
+#  ConnectTimeout: 60000
 logging:
   file: zuul.log
